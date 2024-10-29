@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://i.pinimg.com/originals/22/85/52/228552bb6bdd183da62941c007097034.gif);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.login-container {
+    display: flex;
+    width: 900px;
+    height: 600px;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.left-panel {
+    width: 50%;
+    background: linear-gradient(135deg, #6d0771 0%, #630ebe 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right-panel {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+}
+h1 {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600; 
+}
+
+.login-form h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.login-form h1 span {
+    color: #6d4497;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+}
+
+.login-form input::placeholder {
+    color: #999;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.login {
+    background-color: #9343e8;
+    color: #fff;
+}
+
+.btn.signup {
+    background-color: #6500a0;
+    color: #fff;
+}
+
+.social-icons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: #6b15e4;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #dedede;
+}
